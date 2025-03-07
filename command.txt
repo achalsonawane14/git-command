@@ -1,0 +1,6 @@
+//all the changes which are made in file are stored  in one file that file is provided by git its call git repository
+git init : for initialize git(for getting the folder where all history has been stored)
+*****bash command
+ls -a : getting hide file
+ls .git : what is in git folder
+git status :showing untracked file ..it shows this are the changes which are not in history of you project  (no one know who are adding the files and delete the files),(basically it show that of which file there is no history of saving deleting changing of file)

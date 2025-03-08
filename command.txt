@@ -1,6 +1,29 @@
 //all the changes which are made in file are stored  in one file that file is provided by git its call git repository
 git init : for initialize git(for getting the folder where all history has been stored)
 *****bash command
-ls -a : getting hide file
-ls .git : what is in git folder
-git status :showing untracked file ..it shows this are the changes which are not in history of you project  (no one know who are adding the files and delete the files),(basically it show that of which file there is no history of saving deleting changing of file)
+1. ls -a : getting hide file
+2. ls .git : what is in git folder
+3. git status :showing untracked file and tracked file by red and green colour ..it shows this are the changes which are not in history of you project  (no one know who are adding the files and delete the files),(basically it show that of which file there is no history of saving deleting changing of file)
+4 .git add name_of_file : file add in git history(afterward we see the history of file)
+5 .git add . : save all files in git 
+6 .git commit -m "Your commit message" file_name :saves the changes permanently in git history 
+*note you can not commit file before add it 
+7. cat file_name : to show what are in file
+8. git restore --staged file_name : if you add file to git but do dont want to add 
+9. git log : for see all history
+rm -rf file_name : command for delete file
+git reset commit_id : for dont show the log of before of this commit_id
+git stash: i dont want to commit and dont want to loose but when i needed i will call this file
+git stash pop : for calling the file again
+git stash clear : for permentaly delete the change which are not commited
+git remote add orgin url_of_repo : for connecting github repo to project
+git remote -v : show all url which are connect with that current folder (project)
+git push origin branch_name or master : for pushing files
+git branch feature : for creating new branch
+git merge file_name : to merge file name to main project
+git remote  upstream  url_of folder which you used for fork
+git clone url_fork : to start other oproject in our acc just like downloading project
+git branch branch_name :not tho change in main btranch
+git checkout branch_name : take head on this branch 
+git push origin kunal : to add brank to main 
+git remote add upstream source_url : upstream means from where you are taking this url 

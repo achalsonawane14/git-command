@@ -21,3 +21,4 @@ git remote -v : show all url which are connect with that current folder (project
 git push origin branch_name or master : for pushing files
 git branch feature : for creating new branch
 git merge file_name : to merge file name to main project
+git remote  upstream  url_of folder which you used for fork

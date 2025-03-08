@@ -22,3 +22,8 @@ git push origin branch_name or master : for pushing files
 git branch feature : for creating new branch
 git merge file_name : to merge file name to main project
 git remote  upstream  url_of folder which you used for fork
+git clone url_fork : to start other oproject in our acc just like downloading project
+git branch branch_name :not tho change in main btranch
+git checkout branch_name : take head on this branch 
+git push origin kunal : to add brank to main 
+git remote add upstream source_url : upstream means from where you are taking this url 
